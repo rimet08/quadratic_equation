@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quadratic equation</title>
+</head>
+<body>
+    <header class="w3-container w3-teal">
+        <h1>Kvadratická rovnice</h1>
+    </header>
+
+    <main class="w3-container">
+
+        <section class="w3-card w3-padding w3-margin">
+
+            <h2>Zadejte tři čísla</h2>
+
+            <form id="maxForm" class="w3-container">
+
+                <label for="tbxKoefA">Koeficient a</label>
+                <input type="number" id="tbxKoefA" class="w3-input w3-border" required>
+                
+                <label for="tbxKoefB">Koeficient b</label>
+                <input type="number" id="tbxKoefB" class="w3-input w3-border" required>
+                
+                <label for="tbxKoefC">Koeficient c</label>
+                <input type="number" id="tbxKoefC" class="w3-input w3-border" required>
+                
+                <button type="button"  onclick="korenyRovnice();" id="findMaxBtn" class="w3-button w3-teal w3-margin-top">Vypočítat kořeny</button>
+
+            </form>
+
+        </section>
+
+        <section class="w3-card w3-padding w3-margin">
+
+            <h2>Výsledek</h2>
+            <textarea id="txaResult" class="w3-input w3-border" rows="3" readonly></textarea>
+
+        </section>
+
+    </main>
+
+    <footer class="w3-container w3-teal w3-center">
+        <p></p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
