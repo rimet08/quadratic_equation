@@ -12,11 +12,18 @@ function korenyRovnice() {
         let D = b*b-4*a*c;
         // let D = Math.pow(b,2)-4*a*c;
         if (D==0) {
+            // Počítám jeden kořen
             let x = -b/(2*a);
+            txaResult.value = "Jeden kořen kvadratické rovnice x=" + x;
+        }
+        else {
+            if (D>0) {
+                // Počítám dva kořeny
+                
 
         }
         else {
-
+            // Nejsou reálné kořeny
         }
 
     }
