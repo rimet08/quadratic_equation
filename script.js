@@ -26,6 +26,7 @@ function korenyRovnice() {
         }
         else {
             // Nejsou reálné kořeny
+            txaResult.value = "Nejsou reálné kořeny kvadratické rovnice";
         }
 
     }
