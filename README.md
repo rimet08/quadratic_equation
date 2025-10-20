@@ -1,1 +1,2 @@
 - *Quadratic equation*
+- Learning "if" in JS
