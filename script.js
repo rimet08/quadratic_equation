@@ -23,10 +23,10 @@ function korenyRovnice() {
                 let x2 = (-b-Math.sqrt(D)) / (2*a);
                 txaResult.value = "Dva kořeny kvadratické rovnice x1=" + x1 +", x2=" + x2;
             }
-        }
-        else {
-            // Nejsou reálné kořeny
-            txaResult.value = "Nejsou reálné kořeny kvadratické rovnice";
+            else {
+                // Nejsou reálné kořeny
+                txaResult.value = "Nejsou reálné kořeny kvadratické rovnice";
+            }
         }
 
     }
