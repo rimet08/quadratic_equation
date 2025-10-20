@@ -19,6 +19,8 @@ function korenyRovnice() {
         else {
             if (D>0) {
                 // Počítám dva kořeny
+                let x1 = -b+Math.sqrt(D) / (2*a);
+                let x2 = -b-Math.sqrt(D) / (2*a);
                 
 
         }
@@ -28,6 +30,6 @@ function korenyRovnice() {
 
     }
     else {
-        // řešení lineární rovnice
+        // Řešení lineární rovnice
     }
 }
