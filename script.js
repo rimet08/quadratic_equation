@@ -19,10 +19,10 @@ function korenyRovnice() {
         else {
             if (D>0) {
                 // Počítám dva kořeny
-                let x1 = -b+Math.sqrt(D) / (2*a);
-                let x2 = -b-Math.sqrt(D) / (2*a);
-                
-
+                let x1 = (-b+Math.sqrt(D)) / (2*a);
+                let x2 = (-b-Math.sqrt(D)) / (2*a);
+                txaResult.value = "Dva kořeny kvadratické rovnice x1=" + x1 +", x2=" + x2;
+            }
         }
         else {
             // Nejsou reálné kořeny
