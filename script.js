@@ -31,6 +31,20 @@ function korenyRovnice() {
 
     }
     else {
-        // Řešení lineární rovnice
+        if (b!=0) {
+            // Řešení lineární rovnice
+            let x = -c/b;
+            txaResult.value = "Jeden kořen lineární rovnice x=" + x;
+        }
+        else {
+            // Nemám co počítat
+            // txaResult.value = "Nemám co počítat";
+            if (c==0) {
+                txaResult.value = "Rovnice má nekonečně mnoho řešení";
+            }
+            else {
+                txaResult.value = "Rovnice nemá řešení";
+            }
+        }
     }
 }
